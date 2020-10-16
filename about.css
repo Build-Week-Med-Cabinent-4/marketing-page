@@ -130,3 +130,169 @@ table {
 body {
   font-family: "Work Sans", sans-serif;
 }
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* NAV BAR */
+
+.header-container {
+  height: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 10px 5px 0 5px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-medcab {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.account-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 13%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.links a:hover {
+  color: #598a39;
+}
+
+.login {
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  padding: 4px 6px 4px 6px;
+  background: #e6f0e6;
+  width: 50px;
+  text-align: center;
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+}
+
+.login a:hover {
+  color: #598a39;
+}
+
+.Signup {
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  border-radius: 5px;
+  padding: 4px 6px 4px 6px;
+  background: #e6f0e6;
+  width: 60px;
+}
+.Signup a {
+  text-decoration: none;
+  color: black;
+}
+
+.Signup a:hover {
+  color: #598a39;
+}
+
+/* MAIN CONTENT */
+
+.main-container {
+  margin: 0 10px 0 10px;
+  border-top: 1px dashed grey;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6f0e6;
+}
+
+.about-us-text-container {
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-us-text {
+  width: 25%;
+}
+.about-us {
+  font-size: 3rem;
+  margin: 30px;
+}
+
+.outdoors-image {
+  background-image: url(https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30%;
+  width: 50%;
+}
+
+.coding-image {
+  background-image: url(https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 20px;
+  height: 30%;
+  width: 50%;
+}
+
+.outdoor-text {
+  height: 10%;
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  width: 40%;
+}
+
+/* FOOTER */
+
+.footer-container {
+  height: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #e6f0e6;
+  border-top: 1px solid #598a39;
+}
+
+.footer-container .nav-bar {
+  width: auto;
+  justify-content: space-evenly;
+}
