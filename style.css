@@ -161,7 +161,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 13%;
+  width: 15%;
 }
 
 .links {
@@ -184,17 +184,22 @@ body {
 
 .login {
   border: 1px solid black;
-  color: black;
-  border-radius: 5px;
-  padding: 4px 6px 4px 6px;
-  background: #e6f0e6;
-  width: 50px;
+  border-radius: 40px;
+  box-shadow: 2px 5px 15px;
+  padding: 6px 6px 6px 6px;
+  background: black;
+  width: 60px;
   text-align: center;
+}
+
+.login:hover {
+  background: #f0f0f0;
+  color: #598a39;
 }
 
 .login a {
   text-decoration: none;
-  color: black;
+  color: #f0f0f0;
 }
 
 .login a:hover {
@@ -205,15 +210,21 @@ body {
   border: 1px solid black;
   text-decoration: none;
   font-size: 1rem;
-  color: black;
-  border-radius: 5px;
-  padding: 4px 6px 4px 6px;
-  background: #e6f0e6;
+  border-radius: 40px;
+  box-shadow: 2px 5px 15px;
+  padding: 6px 6px 6px 6px;
+  background-color: black;
   width: 60px;
+  text-align: center;
 }
 .Signup a {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+.Signup:hover {
+  background: #f0f0f0;
+  color: #598a39;
 }
 
 .Signup a:hover {
@@ -346,6 +357,46 @@ body {
   }
 }
 
+@media screen and (max-width: 940px) {
+  .login {
+    width: 50px;
+    font-size: 0.8rem;
+  }
+
+  .Signup {
+    width: 50px;
+    font-size: 0.8rem;
+  }
+
+  .account-buttons {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar-medcab {
+    display: none;
+  }
+
+  .login {
+    width: 50px;
+    font-size: 0.7rem;
+  }
+
+  .Signup {
+    width: 50px;
+    font-size: 0.7rem;
+  }
+
+  .account-buttons {
+    width: 25%;
+  }
+
+  .links {
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .account-buttons {
     width: 17%;
@@ -360,6 +411,30 @@ body {
 
   .links a {
     letter-spacing: 0px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .navbar-medcab {
+    display: none;
+  }
+
+  .login {
+    width: 50px;
+    font-size: 0.7rem;
+  }
+
+  .Signup {
+    width: 50px;
+    font-size: 0.7rem;
+  }
+
+  .account-buttons {
+    width: 28%;
+  }
+
+  .links {
+    width: 70%;
   }
 }
 

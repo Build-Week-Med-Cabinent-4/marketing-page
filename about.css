@@ -184,17 +184,22 @@ body {
 
 .login {
   border: 1px solid black;
-  color: black;
-  border-radius: 5px;
-  padding: 4px 6px 4px 6px;
-  background: #e6f0e6;
-  width: 50px;
+  border-radius: 40px;
+  box-shadow: 2px 5px 15px;
+  padding: 6px 6px 6px 6px;
+  background: black;
+  width: 60px;
   text-align: center;
+}
+
+.login:hover {
+  background: #f0f0f0;
+  color: #598a39;
 }
 
 .login a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .login a:hover {
@@ -205,15 +210,21 @@ body {
   border: 1px solid black;
   text-decoration: none;
   font-size: 1rem;
-  color: black;
-  border-radius: 5px;
-  padding: 4px 6px 4px 6px;
-  background: #e6f0e6;
+  border-radius: 40px;
+  box-shadow: 2px 5px 15px;
+  padding: 6px 6px 6px 6px;
+  background-color: black;
   width: 60px;
+  text-align: center;
 }
 .Signup a {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+.Signup:hover {
+  background: #f0f0f0;
+  color: #598a39;
 }
 
 .Signup a:hover {
@@ -234,25 +245,45 @@ body {
 .about-us-container {
   height: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #e6f0e6;
 }
 
 .about-us-text-container {
-  height: 150px;
+  height: 350px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
+
+.about-us-text-title {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.about-us-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+  height: 100%;
+}
+
 .about-us-text {
-  width: 25%;
+  width: 50%;
   font-size: 1rem;
 }
 .about-us {
   font-size: 3rem;
   margin: 30px;
 }
+
+/* OUTDOORS AND CODING IMAGE */
 
 .outdoors-image {
   background-image: url(https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
