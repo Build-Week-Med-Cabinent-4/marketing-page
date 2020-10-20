@@ -80,7 +80,7 @@ header nav a {
     position: relative;
     display: inline-block;
     width: 100%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
 
 .top-part img {
@@ -127,7 +127,7 @@ h2 {
     margin: 1%;
     align-items: center;
     margin-top: 0;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .top-content .text {
@@ -145,7 +145,7 @@ h2 {
     margin: 1%;
     align-items: center;
     margin-top: 0;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .mid-content .text {
@@ -163,7 +163,7 @@ h2 {
     margin: 1%;
     align-items: center;
     margin-top: 0;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .third-content .text {
@@ -210,3 +210,114 @@ footer nav a {
     text-decoration: none;
     justify-content: space-between;
 }
+
+@media (max-width:800px) {
+
+    .container-getInvolved-page {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .top-part img {
+        max-height: 150px;
+        overflow: hidden;
+        width: 100%;
+        margin: 1%;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .top-content {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 1%;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 8%;
+    }
+
+    .top-content {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 1%;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 8%;
+    }
+
+    .top-content {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 1%;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 8%;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    .container-getInvolved-page {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .top-part img {
+        max-height: 150px;
+        overflow: hidden;
+        width: 100%;
+        margin: 1%;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .top-content {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 1%;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 8%;
+    }
+
+    .top-content {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 1%;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 8%;
+    }
+
+    .top-content {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 1%;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 8%;
+    }
+
+}
+
