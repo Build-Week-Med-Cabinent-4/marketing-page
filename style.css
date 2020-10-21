@@ -187,26 +187,23 @@ body {
   border-radius: 40px;
   box-shadow: 2px 5px 15px;
   padding: 6px 6px 6px 6px;
-  background: black;
+  background: #f0f0f0;
+  color: #598a39;
   width: 60px;
   text-align: center;
+  text-decoration: none;
 }
 
 .login:hover {
-  background: #f0f0f0;
+  background: #e6f0e6;
   color: #598a39;
 }
 
-.login a {
-  text-decoration: none;
-  color: #f0f0f0;
-}
-
-.login a:hover {
+/* .login a:hover {
   color: #598a39;
-}
+} */
 
-.Signup {
+/* .Signup {
   border: 1px solid black;
   text-decoration: none;
   font-size: 1rem;
@@ -229,7 +226,7 @@ body {
 
 .Signup a:hover {
   color: #598a39;
-}
+} */
 
 /* MAIN CONTENT */
 
@@ -261,7 +258,7 @@ body {
 .main-text {
   margin-top: 25px;
   font-size: 1.1rem;
-  margin-left: 15px;
+  margin-left: 40px;
   color: #f0f0f0;
   font-style: italic;
 }
@@ -538,13 +535,13 @@ body {
   }
   .login {
     padding: 1px 2px 1px 2px;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 
-  .Signup {
+  /* .Signup {
     padding: 2px 2px 2px 2px;
     font-size: 0.72rem;
-  }
+  } */
   .links a {
     letter-spacing: 0px;
     font-size: 0.8rem;
