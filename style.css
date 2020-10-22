@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* AFTER RESET  */
+
+/* NAV BAR */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.header-container {
+  height: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 10px 5px 0 5px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-medcab {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.account-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.links a:hover {
+  color: #598a39;
+}
+
+.login {
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 2px 5px 15px;
+  padding: 6px 6px 6px 6px;
+  background: #f0f0f0;
+  color: #598a39;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login:hover {
+  background: #e6f0e6;
+  color: #598a39;
+}
+
+/* .login a:hover {
+  color: #598a39;
+} */
+
+/* .Signup {
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 40px;
+  box-shadow: 2px 5px 15px;
+  padding: 6px 6px 6px 6px;
+  background-color: black;
+  width: 60px;
+  text-align: center;
+}
+.Signup a {
+  text-decoration: none;
+  color: white;
+}
+
+.Signup:hover {
+  background: #f0f0f0;
+  color: #598a39;
+}
+
+.Signup a:hover {
+  color: #598a39;
+} */
+
+/* MAIN CONTENT */
+
+.main-container {
+  height: 75vh;
+  margin: 0 10px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/684/115/821/420-cannabis-marijuana-weed-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75%;
+  height: 95%;
+}
+
+.main-brand-name {
+  font-size: 3rem;
+  margin-top: 120px;
+  margin-left: 55px;
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+.main-text {
+  margin-top: 25px;
+  font-size: 1.1rem;
+  margin-left: 40px;
+  color: #f0f0f0;
+  font-style: italic;
+}
+
+/* APP STORE PLUGINS */
+
+.app-store-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.google-badge {
+  height: 45px;
+}
+.apple-badge {
+  height: 31px;
+}
+
+/* REVIEW AND BOTTOM CONTAINER */
+
+.bottom-container {
+  height: 50vh;
+  display: flex;
+  width: auto;
+  margin: 50px 10px 0 10px;
+}
+
+.review-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 50%;
+}
+
+.reviewer {
+  font-size: 2rem;
+  margin: 10px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.review-text {
+  font-size: 1.1rem;
+
+  margin: 10px;
+}
+
+.happy-image-container {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://images.pexels.com/photos/2647104/pexels-photo-2647104.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+.footer-container {
+  height: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-top: 150px;
+  background-color: #e6f0e6;
+  border-top: 1px solid #598a39;
+}
+
+.footer-container .nav-bar {
+  width: auto;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .login {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .Signup {
+    padding: 3px 4px 3px 4px;
+  }
+  .main-container {
+    height: 60vh;
+    margin-bottom: -20px;
+  }
+  .image-container {
+    height: 75%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .login {
+    width: 50px;
+    font-size: 0.8rem;
+  }
+
+  .Signup {
+    width: 50px;
+    font-size: 0.8rem;
+  }
+
+  .account-buttons {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar-medcab {
+    display: none;
+  }
+
+  .login {
+    width: 50px;
+    font-size: 0.7rem;
+  }
+
+  .Signup {
+    width: 50px;
+    font-size: 0.7rem;
+  }
+
+  .account-buttons {
+    width: 25%;
+  }
+
+  .links {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .account-buttons {
+    width: 17%;
+  }
+  .login {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .Signup {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .links a {
+    letter-spacing: 0px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .navbar-medcab {
+    display: none;
+  }
+
+  .login {
+    width: 50px;
+    font-size: 0.7rem;
+  }
+
+  .Signup {
+    width: 50px;
+    font-size: 0.7rem;
+  }
+
+  .account-buttons {
+    width: 28%;
+  }
+
+  .links {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-medcab {
+    display: none;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .main-brand-name {
+    font-size: 1.3rem;
+    margin-top: 95px;
+    margin-left: 25px;
+  }
+
+  .main-text {
+    font-size: 0.8rem;
+    margin-top: 45px;
+  }
+  .main-container {
+    height: 45vh;
+  }
+
+  .header-container {
+    margin-bottom: -10px;
+  }
+  .links {
+    width: 70%;
+    justify-content: space-evenly;
+  }
+  .account-buttons {
+    width: 30%;
+  }
+  .login {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .Signup {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .links a {
+    letter-spacing: 0px;
+    font-size: 1rem;
+  }
+
+  .bottom-container {
+    height: 40vh;
+  }
+
+  .reviewer {
+    font-size: 1.5rem;
+  }
+
+  .review-text {
+    font-size: 0.9rem;
+  }
+
+  .footer-container .nav-bar .links {
+    width: 75%;
+  }
+
+  .copyright {
+    font-size: 0.6rem;
+    width: 25%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar-medcab {
+    display: none;
+  }
+
+  body {
+    margin: 0;
+  }
+  .main-brand-name {
+    font-size: 1.3rem;
+    margin-top: 95px;
+    margin-left: 25px;
+  }
+
+  .main-container {
+    height: 35vh;
+  }
+
+  .main-text {
+    font-size: 0.8rem;
+    margin-top: 45px;
+  }
+  .links {
+    width: 75%;
+    justify-content: space-evenly;
+  }
+  .account-buttons {
+    width: 25%;
+  }
+  .login {
+    padding: 1px 2px 1px 2px;
+    font-size: 0.7rem;
+  }
+
+  /* .Signup {
+    padding: 2px 2px 2px 2px;
+    font-size: 0.72rem;
+  } */
+  .links a {
+    letter-spacing: 0px;
+    font-size: 0.8rem;
+  }
+
+  .bottom-container {
+    height: 50vh;
+  }
+
+  .footer-container .nav-bar .links {
+    width: 75%;
+  }
+
+  .copyright {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  .footer-container {
+    margin-top: 50px;
+  }
+}

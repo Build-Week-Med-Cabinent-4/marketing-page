@@ -1,0 +1,851 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* AFTER RESET  */
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* NAV BAR */
+
+.header-container {
+  height: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 10px 5px 0 5px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-medcab {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.account-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 13%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.links a:hover {
+  color: #598a39;
+}
+
+.login {
+  border: 1px solid black;
+  border-radius: 40px;
+  box-shadow: 2px 5px 15px;
+  padding: 6px 6px 6px 6px;
+  background: #f0f0f0;
+  color: #598a39;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login:hover {
+  background: #e6f0e6;
+  color: #598a39;
+}
+
+/* .login a:hover {
+  color: #598a39;
+} */
+
+/* .Signup {
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 40px;
+  box-shadow: 2px 5px 15px;
+  padding: 6px 6px 6px 6px;
+  background-color: black;
+  width: 60px;
+  text-align: center;
+}
+.Signup a {
+  text-decoration: none;
+  color: white;
+}
+
+.Signup:hover {
+  background: #f0f0f0;
+  color: #598a39;
+}
+
+.Signup a:hover {
+  color: #598a39;
+} */
+
+/* MAIN CONTENT */
+
+.main-container {
+  margin: 0px 10px 0 10px;
+  border-top: 1px dashed grey;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-container {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6f0e6;
+}
+
+.about-us-text-container {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-text-title {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.about-us-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.about-us-text {
+  width: 50%;
+  font-size: 1rem;
+}
+.about-us {
+  font-size: 3rem;
+  margin: 30px;
+}
+
+/* PROFILE */
+
+.profiles-container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column wrap;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  border-top: 1px dotted grey;
+}
+
+.profile-box {
+  background: #24292d;
+  border-radius: 150px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d0d0d0;
+  text-decoration: underline;
+}
+
+.profile-what-i-do {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 15px;
+  color: #d0d0d0;
+}
+
+.github-handle {
+  font-size: 0.8rem;
+  margin-top: 15px;
+  color: #d0d0d0;
+}
+
+.github-image {
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+/* OUTDOORS AND CODING IMAGE */
+
+.outdoors-image {
+  background-image: url(https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30%;
+  margin-top: 35px;
+  width: 50%;
+}
+
+.coding-image {
+  background-image: url(https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 20px;
+  height: 30%;
+  width: 50%;
+}
+
+.outdoor-text {
+  height: 10%;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  width: 40%;
+}
+
+.coding-text {
+  height: 10%;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  width: 40%;
+}
+
+/* FOOTER */
+
+.footer-container {
+  height: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #e6f0e6;
+  border-top: 1px solid #598a39;
+}
+
+.footer-container .nav-bar {
+  width: auto;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1024px) {
+  .login {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .Signup {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .about-us-text {
+    font-size: 0.8rem;
+    line-height: 15px;
+  }
+  .main-container {
+    /* border-top: none; */
+    height: 75vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-us-container {
+    height: 75px;
+    margin-bottom: 25px;
+  }
+  .account-buttons {
+    width: 17%;
+  }
+  .login {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .about-us-text {
+    font-size: 0.7rem;
+    line-height: 15px;
+  }
+  .main-container {
+    border-top: none;
+    height: 75vh;
+  }
+
+  .links a {
+    letter-spacing: 0px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-us-container {
+    height: 75px;
+    margin-bottom: 25px;
+  }
+  .account-buttons {
+    width: 20%;
+  }
+  .login {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .about-us-text {
+    font-size: 0.7rem;
+    line-height: 15px;
+  }
+  .main-container {
+    border-top: none;
+    height: 75vh;
+  }
+
+  .links a {
+    letter-spacing: 0px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .navbar-medcab {
+    font-size: 1.1rem;
+  }
+
+  .login {
+    padding: 1px 2px 1px 2px;
+    font-size: 0.8rem;
+  }
+
+  .links a {
+    letter-spacing: 0px;
+    font-size: 0.8rem;
+  }
+
+  .account-buttons {
+    width: 25%;
+  }
+
+  .profile-box {
+    background: #24292d;
+    border-radius: 100px;
+    text-align: center;
+    width: 170px;
+    height: 170px;
+  }
+
+  .profile-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #d0d0d0;
+    text-decoration: underline;
+  }
+
+  .profile-what-i-do {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-top: 0px;
+    margin: 8px;
+    color: #d0d0d0;
+  }
+
+  .github-image {
+    /* display: none; */
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 0px;
+  }
+
+  .github-handle {
+    font-size: 0.7rem;
+    /* margin-top: 0px; */
+    color: #d0d0d0;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .profiles-container {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    border-top: 1px dotted grey;
+  }
+
+  .profile-box {
+    background: #24292d;
+    border-radius: 100px;
+    text-align: center;
+    width: 160px;
+    height: 160px;
+  }
+
+  .profile-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #d0d0d0;
+    text-decoration: underline;
+  }
+
+  .profile-what-i-do {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-top: 0px;
+    margin: 8px;
+    color: #d0d0d0;
+  }
+
+  .github-image {
+    /* display: none; */
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 0px;
+  }
+
+  .github-handle {
+    font-size: 0.7rem;
+    /* margin-top: 0px; */
+    color: #d0d0d0;
+  }
+
+  .outdoor-text {
+    height: 20%;
+    font-size: 0.9rem;
+  }
+
+  .coding-text {
+    height: 20%;
+    font-size: 0.9rem;
+  }
+
+  .links {
+    width: 75%;
+    justify-content: space-evenly;
+  }
+  .account-buttons {
+    width: 25%;
+  }
+  .login {
+    padding: 1px 2px 1px 2px;
+    font-size: 0.7rem;
+  }
+
+  .links a {
+    letter-spacing: 0px;
+    font-size: 0.8rem;
+  }
+
+  .footer-container .nav-bar .links {
+    width: 75%;
+  }
+
+  .copyright {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-medcab {
+    display: none;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .header-container {
+    margin: 0px 5px 0 5px;
+  }
+  .about-us-container {
+    height: 50px;
+  }
+  .about-us-text-container {
+    height: 200px;
+  }
+
+  .about-us-text-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .about-us-text {
+    font-size: 0.6rem;
+    line-height: 11px;
+  }
+  .about-us {
+    font-size: 2rem;
+  }
+
+  .links {
+    width: 70%;
+    justify-content: space-evenly;
+  }
+  .account-buttons {
+    width: 30%;
+  }
+  .login {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .Signup {
+    padding: 3px 4px 3px 4px;
+  }
+
+  .links a {
+    letter-spacing: 0px;
+    font-size: 1rem;
+  }
+
+  .footer-container .nav-bar .links {
+    width: 75%;
+  }
+
+  .copyright {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  .outdoor-text {
+    height: 20%;
+    font-size: 0.8rem;
+  }
+
+  .coding-text {
+    height: 20%;
+    font-size: 0.8rem;
+  }
+
+  .footer-container {
+    margin-top: 50px;
+  }
+
+  .profiles-container {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    border-top: 1px dotted grey;
+  }
+
+  .profile-box {
+    background: #24292d;
+    border-radius: 100px;
+    text-align: center;
+    width: 110px;
+    height: 110px;
+  }
+
+  .profile-name {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #d0d0d0;
+    text-decoration: underline;
+  }
+
+  .profile-what-i-do {
+    font-size: 0.5rem;
+    font-style: italic;
+    margin-top: 0px;
+    margin: 10px;
+    color: #d0d0d0;
+  }
+
+  .github-image {
+    display: none;
+    border-radius: 10px;
+    height: 10px;
+    margin-top: 0px;
+  }
+
+  .github-handle {
+    font-size: 0.5rem;
+    margin-top: 0px;
+    color: #d0d0d0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar-medcab {
+    display: none;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .header-container {
+    margin: 0px 5px 0 5px;
+  }
+  .about-us-container {
+    height: 50px;
+  }
+  .about-us-text-container {
+    height: 200px;
+  }
+
+  .about-us-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+  }
+
+  .about-us-text-title {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .about-us-text {
+    font-size: 0.4rem;
+    line-height: 10px;
+  }
+  .about-us {
+    font-size: 1.8rem;
+  }
+
+  .links {
+    width: 75%;
+    justify-content: space-evenly;
+  }
+  .account-buttons {
+    width: 25%;
+  }
+  .login {
+    padding: 1px 2px 1px 2px;
+    font-size: 0.7rem;
+  }
+
+  .links a {
+    letter-spacing: 0px;
+    font-size: 0.8rem;
+  }
+
+  .footer-container .nav-bar .links {
+    width: 75%;
+  }
+
+  .copyright {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  .outdoor-text {
+    height: 20%;
+    font-size: 0.7rem;
+  }
+
+  .coding-text {
+    height: 20%;
+    font-size: 0.7rem;
+  }
+
+  .footer-container {
+    margin-top: 50px;
+  }
+
+  .profiles-container {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    border-top: 1px dotted grey;
+  }
+
+  .profile-box {
+    background: #24292d;
+    border-radius: 100px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-name {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #d0d0d0;
+    text-decoration: underline;
+  }
+
+  .profile-what-i-do {
+    font-size: 0.5rem;
+    font-style: italic;
+    margin-top: 0px;
+    margin: 10px;
+    color: #d0d0d0;
+  }
+
+  .github-image {
+    display: none;
+    border-radius: 10px;
+    height: 10px;
+    margin-top: 0px;
+  }
+
+  .github-handle {
+    font-size: 0.5rem;
+    margin-top: 0px;
+    color: #d0d0d0;
+  }
+}
