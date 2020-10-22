@@ -51,17 +51,19 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* start of the page  */
+
+.container-learn-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .header-pic-text {
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 2%;
     margin-top: 0%;
     justify-content: space-between;
-}
-
-.container-learn-page {
-    width: 800px;
-    margin: 0 auto;
 }
 
 .title-image img {
@@ -74,6 +76,8 @@ html, body {
     width: 100%;
     margin: 10px;
 }
+
+/* top navigation bar  */
 
 header nav {
     width: 100%;
@@ -89,6 +93,8 @@ header nav a {
     color: greenyellow;
     text-decoration: none;
 }
+
+/* all fonts  */
 
 h1 {
     font-size: 2rem;
@@ -112,6 +118,8 @@ p {
     color: 	#556B2F;
     font-style: italic;
 }
+
+/* main page starting here  */
 
 .top-content {
     margin-bottom: 5%;
@@ -179,6 +187,8 @@ button {
   margin-top: 3%;  
 }
 
+/* end of main content and start of footer  */
+
 footer {
     width: 100%;
     background: black;
@@ -204,6 +214,35 @@ footer nav a {
     text-decoration: none;
     justify-content: space-between;
 }
+
+/* start of media queries */
+
+/* slight adjustment for desktop */
+
+@media (max-width: 1024px) {
+
+    .container-learn-page {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    h2, h3, h4, h5 {
+        font-size: 1.7rem;
+        margin-bottom: 15px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 1%;
+        color: 	#556B2F;
+        align-items: center;
+    }
+    
+    p {
+        line-height: 1.4;
+        color: 	#556B2F;
+        font-style: italic;
+        font-size: 1.2rem;
+    }
+
+/* full adjustment for tablet  */
 
 @media (max-width: 800px) {
 
@@ -253,6 +292,8 @@ footer nav a {
     }
 
 }
+
+/* full adjustment for mobile  */
 
 @media (max-width: 500px) {
 
